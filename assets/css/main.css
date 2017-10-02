@@ -1740,8 +1740,7 @@ h3, h5, a{
 
 		.box.feature {
 			padding: 0;
-			/*height: 630px;*/
-			height: 1000px;
+			height: 630px;
 		}
 
 			.box.feature .inner {
