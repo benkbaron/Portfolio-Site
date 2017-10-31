@@ -3813,7 +3813,9 @@
 		@media screen and (max-width: 1280px) {
 
 			#sidebar {
-				height: 3.5em;
+
+				height: 11.75em;
+				/*height: 3.5em;    --Ben edit*/
 				left: 0;
 				line-height: 3.5em;
 				overflow: hidden;
@@ -3846,9 +3848,12 @@
 						display: -webkit-flex;
 						display: -ms-flex;
 						display: flex;
-						height: inherit;
+						/*height: inherit;*/
 						line-height: inherit;
 						margin: 0;
+						/*ben edit below*/
+						align-items: center;
+						justify-content: center;
 					}
 
 						#sidebar nav ul li {
@@ -3857,6 +3862,9 @@
 							line-height: inherit;
 							margin: 0 0 0 2em;
 							padding: 0;
+
+
+							padding: 10;
 						}
 
 					#sidebar nav a {
