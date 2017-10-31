@@ -1,77 +1,59 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@import 'libs/skel';
 
 /*
-	Verti by HTML5 UP
+	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
+/* Type */
 
-	body {
-		background-color: #f0f0f0;
-	}
-
-/* Image */
-
-	.image {
-		img {
-			position: relative;
-			-ms-behavior: url('assets/js/ie/PIE.htc');
-		}
+	body, input, select, textarea {
+		color: _palette(fg-bold);
 	}
 
 /* Button */
 
-	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
-	.button,
-	button {
+	input[type="button"],
+	button,
+	.button {
 		position: relative;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-	}
 
-/* Widgets */
-
-	.box,
-	.widget.contact ul li a {
-		position: relative;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-	}
-
-/* Header */
-
-	#logo h1 {
-		position: relative;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-	}
-
-/* Nav */
-
-	#nav {
-		ul {
-			li {
-				a, span {
-					position: relative;
-					-ms-behavior: url('assets/js/ie/PIE.htc');
-				}
-			}
+		&:after {
+			display: none;
 		}
 	}
 
-	.dropotron {
-		border: solid 1px #eee;
-		box-shadow: none !important;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
+/* Features */
 
-		&.level-0 {
-			box-shadow: none !important;
+	.features {
+		border: solid 1px;
+	}
 
-			&:before {
-				display: none;
+/* Form */
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="tel"],
+	select,
+	textarea {
+		background: transparent;
+		border: solid 1px;
+	}
+
+/* Split */
+
+	.split {
+		&.style1 {
+			> :first-child {
+				padding-right: 2em;
+				width: 70%;
 			}
 		}
 	}
