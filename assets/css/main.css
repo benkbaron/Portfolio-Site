@@ -3955,6 +3955,19 @@
 
 		}
 
-.skill_icons {
-	margin: 10px;
-}
+		.icons {
+			max-width: 770px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			flex-wrap: wrap;
+		}
+
+		.icons > * {
+			margin: 10px;
+		}
+
+		.social-icons {
+			max-width: 150px;
+			justify-content: flex-start;
+		}
