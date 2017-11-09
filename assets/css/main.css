@@ -2662,6 +2662,10 @@
 				object-fit: cover;
 			}
 
+			.skill_icons {
+				object-fit: contain;
+			}
+
 /* List */
 
 	ol {
@@ -3415,7 +3419,9 @@
 				.wrapper > .inner {
 					width: 100%;
 				}
-
+				#name {
+					margin-top: 10vh;
+				}
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3423,7 +3429,9 @@
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
 				}
-
+				#name {
+					margin-top: 10vh;
+				}
 			}
 
 		.wrapper.alt {
